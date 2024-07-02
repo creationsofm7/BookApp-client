@@ -49,10 +49,10 @@ export default function Homey() {
 
 
 
-const InvoiceForm = ({ onSubmit }) => {
+const InvoiceForm = ({ onSubmit }: any) => {
   const form = useForm();
 
-  const handleSubmit = (data) => {
+  const handleSubmit = (data: any) => {
     console.log(data);
     onSubmit();
   };
